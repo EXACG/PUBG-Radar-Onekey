@@ -24,9 +24,9 @@ yum install git;git clone https://github.com/794959818/PUBG-Radar-Onekey.git; ch
 
 ## Link
 
-Local computer using SSTAP connection
+使用 SSTAP 进行连接
 
-Watching address  serverIP:20086/
+Watching address serverIP:10086/
 
 
 Restart PUBG-Radar command
