@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>雷达系统2018428</title>
+  <title>雷达系统</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/openlayers@4.6.4/dist/ol.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
@@ -34,8 +34,10 @@
   <div id="app">
     <div class="sidenav" id="navBox" style="display:none;">
       <section class="section">
-        <h1 class="title STYLE4">雷达系统2018428</h1>  
-        <!-- <div class="field is-grouped">
+        <h1 class="title STYLE4">雷达系统2018429</h1>
+		 <h1 class="title STYLE2">这是一个测试版本(修正部分内容)</h1> 
+        <!-- 修改by:梦羽 意见可发送邮箱至:men_yu@qq.com
+		<div class="field is-grouped">
           <a class="button is-small">Button</a>
           <a class="button is-small">Button2</a>
         </div> -->
@@ -102,10 +104,11 @@
 
         <hr>
         <label class="label">刷新率:</label>
-          <a class="button is-small" @click="setFPS(5)">fps5</a>
-          <a class="button is-small" @click="setFPS(15)">fps15</a>
-          <a class="button is-small" @click="setFPS(30)">fps30</a>
-          <a class="button is-small" @click="setFPS(60)">fps60</a>
+          <a class="button is-small" @click="setFPS(10)">FPS10</a>
+          <a class="button is-small" @click="setFPS(15)">FPS15</a>
+		  <a class="button is-small" @click="setFPS(20)">FPS20</a>
+          <a class="button is-small" @click="setFPS(30)">FPS30</a>
+          <a class="button is-small" @click="setFPS(60)">FPS60</a>
           <br><br>
 
         <!-- <a class="button is-small" @click="toggleRefresh">{{ toggleButtonText }}</a>
