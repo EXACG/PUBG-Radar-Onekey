@@ -8,7 +8,7 @@ You need an extra linux（centos 7 x64） server to be the man in the middle
 
 Server running command：
 ```bash
-yum install git;git clone https://github.com/EXACG/PUBG-Radar-Onekey.git; chmod +x ./root/PUBG-Radar-Onekey/update.sh; ./root/PUBG-Radar-Onekey/update.sh
+yum install git;git clone https://github.com/EXACG/PUBG-Radar-Onekey.git; chmod +x ./PUBG-Radar-Onekey/update.sh; ./PUBG-Radar-Onekey/update.sh
 ```
 
 ## Translation
@@ -26,9 +26,9 @@ yum install git;git clone https://github.com/EXACG/PUBG-Radar-Onekey.git; chmod 
 
 请使用 SSTAP 进行连接
 
-Watching address serverIP:10086/
+Watching address serverIP:23333/
 
 Restart PUBG-Radar command
 
 ```bash
-cd /root/PUBG-Radar-Onekey;. restart.sh
+cd /root/PUBG-Radar-Onekey; .restart.sh
