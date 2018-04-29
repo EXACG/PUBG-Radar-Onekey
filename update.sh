@@ -34,5 +34,8 @@ npm i
 npm i -g pino
 npm install -g forever
 forever start index.js sniff eth0 $ip | pino
-
+echo "========================"
 echo "搭建完成"
+echo "========================"
+echo "进入地址：http://服务器的公网IP:26666" 
+echo "========================"
